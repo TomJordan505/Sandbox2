@@ -23,17 +23,17 @@ while choice != "Q":
 
     if choice == "C":
 
-        celsius = float(input("Celsius: "))
+        c = float(input("Celsius: "))
 
-        fahrenheit = fahrenheit_conversion(celsius)
+        fahrenheit = fahrenheit_conversion(c)
 
         print("Result: {:.2f} F".format(fahrenheit))
 
     elif choice == "F":
 
-        fahrenheit = float(input("Fahrenheit: "))
+        f = float(input("Fahrenheit: "))
 
-        celsius = celsius_conversion(fahrenheit)
+        celsius = celsius_conversion(f)
 
         print("Result: {:.2f} F".format(celsius))
 
